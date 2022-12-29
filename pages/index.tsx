@@ -1,8 +1,6 @@
 import Head from 'next/head'
-import { GetServerSideProps, GetStaticProps } from 'next/types'
+import { GetServerSideProps } from 'next/types'
 import { HomeProps } from '../model/home-props';
-
-
 
 export default function Home({ data }: HomeProps) {
   console.log(data);
